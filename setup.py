@@ -46,5 +46,5 @@ if not strtobool(os.environ.get("AIOCACHE_MEMCACHED", "yes")):
     install_requires.remove(aiomcache)
 
 
-setup_kwargs['install_requires'] = install_requires
+#setup_kwargs['install_requires'] = install_requires
 setup(**setup_kwargs)
